@@ -1,0 +1,570 @@
+body {
+	margin: 0;
+	padding: 0;
+}
+
+h1 {
+	text-align: center;
+	font-family: 'Homemade Apple', cursive;
+	font-size: 70px;
+	margin: 15px;
+	padding: 0;
+	color: #DC143C;
+	background-image: url();
+
+}
+h2 {
+	text-align: center;
+	font-family: 'Homemade Apple', cursive;
+	font-size: 30px;
+	font-weight: bold;
+	margin: 0;
+	color: #DC143C;;
+}
+
+
+.textAbout {
+	font-family: 'Mogra', cursive;
+	font-size: 30px;
+	width: 400px;
+	text-align: center;
+	margin: 200px 50px 50px 450px;
+}
+
+
+
+
+.title {
+	background-image: url("pie.jpg");
+}
+
+.title1 {
+
+}
+
+.title2 {
+	background-image: url("food.jpg");
+}
+
+.title3 {
+	background-image: url("picnic.jpg");
+}
+
+.title4 {
+	background-image: url("picnic.jpg");
+}
+
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+.inline div{
+	display: inline-block;
+	padding-top: 60px;
+	padding-left: 20px;
+}
+
+
+#Home {
+	display: block;
+	font-family: 'Rancho', cursive;
+	font-size: 60px;
+	font-weight: bold;
+	background-color: #ff5050;
+	border: 1px solid;
+	border-radius: 1000%;
+	color: #FFFFFF;
+	transition: all 0.5s ease-in-out;
+	-webkit-transition: all 0.5s ease-in-out;
+	margin-bottom: 40px;
+}
+
+#About {
+	margin: auto;
+	font-family: 'Rancho', cursive;
+	padding: 0px 10px 0px 10px;
+	font-size: 40px;
+	font-weight: bold;
+	background-color: #ff5050;
+	border: 1px solid;
+	border-radius: 100%;
+	display: block;
+	color: #FFFFFF;
+	transition: all 0.5s ease-in-out;
+	-webkit-transition: all 0.5s ease-in-out;
+	margin-bottom: 40px;
+}
+
+#Good {
+	font-family: 'Rancho', cursive;
+	padding: 0px 10px 0px 10px;
+	font-size: 50px;
+	font-weight: bold;
+	background-color: #ff5050;
+	border: 1px solid;
+	border-radius: 100%;
+	display: block;
+	color: #FFFFFF;
+	transition: all 0.5s ease-in-out;
+	-webkit-transition: all 0.5s ease-in-out;
+	margin-bottom: 40px;
+}
+
+#Recipes {
+	margin: auto;
+	font-family: 'Rancho', cursive;
+	padding: 0px 10px 0px 10px;
+	font-size: 40px;
+	font-weight: bold;
+	background-color: #ff5050;
+	border: 1px solid;
+	border-radius: 100%;
+	display: block;
+	color: #FFFFFF;
+	transition: all 0.5s ease-in-out;
+	-webkit-transition: all 0.5s ease-in-out;
+	margin-bottom: 40px;
+}
+
+#Join {
+	font-family: 'Rancho', cursive;
+	padding: 0px 10px 0px 10px;
+	font-size: 45px;
+	font-weight: bold;
+	background-color: #ff5050;
+	border: 1px solid;
+	border-radius: 100%;
+	display: block;
+	color: #FFFFFF;
+	transition: all 0.5s ease-in-out;
+	-webkit-transition: all 0.5s ease-in-out;
+	margin-bottom: 40px;
+}
+
+.btn-group-vertical {
+	vertical-align: top;
+}
+/* Sidebar wrapper*/
+
+#sidebar-wrapper {
+	z-index: 1;
+	position: absolute;
+	width: 0;
+	height: 100%;
+	overflow-y: hidden;
+	background-color: #2C3E50;
+	border: 2px solid red;
+	opacity: 0.9;
+}
+
+/* Main content */
+#main-content-wrapper {
+	width: 100%;
+	position: absolute;
+	padding: 15px;
+	border: 5px solid green;
+}
+
+/* Change the width of the sidebar to dispaly it */
+#wrapper.menuDisplayed #sidebar-wrapper {
+	width: 250px;
+}
+
+#wrapper.menuDisplayed #main-content-wrapper {
+	width: 250px;
+} 
+
+/*Sidebar styling */
+.sidebar-nav {
+	padding: 0;
+	list-style: none;
+}
+
+.sidebar-nav li {
+	text-indent: 20px;
+	line-height: 40px;
+}
+
+.sidebar-nav li a {
+	display: block;
+	text-decoration: none;
+	color: #ddd;
+}
+
+.sidebar-nav li a:hover {
+	background: #16A085;
+}
+
+#navInside {
+	text-align: left;
+	padding: 10px;
+	font-family: 'Rancho', cursive;
+	padding: 0px 10px 0px 10px;
+	list-style-type: inline;
+}
+
+#HomeInside {
+	position: absolute;
+	left: 25%;
+	top: 40%;
+	font-family: 'Crafty Girls', cursive;
+	padding: 0px 10px 0px 10px;
+	font-size: 30px;
+	font-weight: bold;
+	background-color: #ff5050;
+	border: 1px solid;
+	border-radius: 30%;
+	display: block;
+	color: #FFFFFF;
+	transition: all 0.5s ease-in-out;
+	-webkit-transition: all 0.5s ease-in-out;
+	margin-bottom: 40px;
+}
+
+#AboutInside {
+	position: absolute;
+	left: 40%;
+	top: 40%;
+	font-family: 'Crafty Girls', cursive;
+	padding: 0px 10px 0px 10px;
+	font-size: 30px;
+	font-weight: bold;
+	background-color: #ff5050;
+	border: 1px solid;
+	border-radius: 3%;
+	display: block;
+	color: #FFFFFF;
+	transition: all 0.5s ease-in-out;
+	-webkit-transition: all 0.5s ease-in-out;
+	margin-bottom: 40px;
+}
+
+#RecipesInside {
+	position: absolute;
+	top: 40%;
+	left: 55%;
+	font-family: 'Crafty Girls', cursive;
+	padding: 0px 10px 0px 10px;
+	font-size: 30px;
+	font-weight: bold;
+	background-color: #ff5050;
+	border: 1px solid;
+	border-radius: 3%;
+	display: block;
+	color: #FFFFFF;
+	transition: all 0.5s ease-in-out;
+	-webkit-transition: all 0.5s ease-in-out;
+	margin-bottom: 40px;
+}
+
+#JoinInside {
+	position: absolute;
+	top: 40%;
+	left: 70%;
+	font-family: 'Crafty Girls', cursive;
+	padding: 0px 10px 0px 10px;
+	font-size: 30px;
+	font-weight: bold;
+	background-color: #ff5050;
+	border: 1px solid;
+	border-radius: 3%;
+	display: block;
+	color: #FFFFFF;
+	transition: all 0.5s ease-in-out;
+	-webkit-transition: all 0.5s ease-in-out;
+	margin-bottom: 40px;
+}
+
+
+
+#HomeInside2 {
+	position: absolute;
+	left: 25%;
+	top: 40%;
+	font-family: 'Crafty Girls', cursive;
+	padding: 0px 10px 0px 10px;
+	font-size: 30px;
+	font-weight: bold;
+	background-color: #ff5050;
+	border: 1px solid;
+	border-radius: 3%;
+	display: block;
+	color: #FFFFFF;
+	transition: all 0.5s ease-in-out;
+	-webkit-transition: all 0.5s ease-in-out;
+	margin-bottom: 40px;
+}
+
+#AboutInside2 {
+	position: absolute;
+	left: 40%;
+	top: 40%;
+	font-family: 'Crafty Girls', cursive;
+	padding: 0px 10px 0px 10px;
+	font-size: 30px;
+	font-weight: bold;
+	background-color: #ff5050;
+	border: 1px solid;
+	border-radius: 3%;
+	display: block;
+	color: #FFFFFF;
+	transition: all 0.5s ease-in-out;
+	-webkit-transition: all 0.5s ease-in-out;
+	margin-bottom: 40px;
+}
+
+#GoodInside2 {
+	position: absolute;
+	left: 40%;
+	top: 40%;
+	font-family: 'Crafty Girls', cursive;
+	padding: 0px 10px 0px 10px;
+	font-size: 30px;
+	font-weight: bold;
+	background-color: #ff5050;
+	border: 1px solid;
+	border-radius: 3%;
+	display: block;
+	color: #FFFFFF;
+	transition: all 0.5s ease-in-out;
+	-webkit-transition: all 0.5s ease-in-out;
+	margin-bottom: 40px;
+	
+}
+
+#RecipesInside2 {
+	position: absolute;
+	top: 40%;
+	left: 55%;
+	font-family: 'Crafty Girls', cursive;
+	padding: 0px 10px 0px 10px;
+	font-size: 30px;
+	font-weight: bold;
+	background-color: #ff5050;
+	border: 1px solid;
+	border-radius: 3%;
+	display: block;
+	color: #FFFFFF;
+	transition: all 0.5s ease-in-out;
+	-webkit-transition: all 0.5s ease-in-out;
+	margin-bottom: 40px;
+}
+
+#JoinInside2 {
+	position: absolute;
+	top: 40%;
+	left: 70%;
+	font-family: 'Crafty Girls', cursive;
+	padding: 0px 10px 0px 10px;
+	font-size: 30px;
+	font-weight: bold;
+	background-color: #ff5050;
+	border: 1px solid;
+	border-radius: 3%;
+	display: block;
+	color: #FFFFFF;
+	transition: all 0.5s ease-in-out;
+	-webkit-transition: all 0.5s ease-in-out;
+	margin-bottom: 40px;
+}
+
+#HomeInside3 {
+	position: absolute;
+	left: 20%;
+	top: 40%;
+	font-family: 'Crafty Girls', cursive;
+	padding: 0px 10px 0px 10px;
+	font-size: 30px;
+	font-weight: bold;
+	background-color: #ff5050;
+	border: 1px solid;
+	border-radius: 3%;
+	display: block;
+	color: #FFFFFF;
+	transition: all 0.5s ease-in-out;
+	-webkit-transition: all 0.5s ease-in-out;
+	margin-bottom: 40px;
+}
+
+#AboutInside3 {
+	position: absolute;
+	left: 55%;
+	top: 40%;
+	font-family: 'Crafty Girls', cursive;
+	padding: 0px 10px 0px 10px;
+	font-size: 30px;
+	font-weight: bold;
+	background-color: #ff5050;
+	border: 1px solid;
+	border-radius: 3%;
+	display: block;
+	color: #FFFFFF;
+	transition: all 0.5s ease-in-out;
+	-webkit-transition: all 0.5s ease-in-out;
+	margin-bottom: 40px;
+}
+
+#GoodInside3 {
+	position: absolute;
+	left: 30%;
+	top: 40%;
+	font-family: 'Crafty Girls', cursive;
+	padding: 0px 10px 0px 10px;
+	font-size: 30px;
+	font-weight: bold;
+	background-color: #ff5050;
+	border: 1px solid;
+	border-radius: 3%;
+	display: block;
+	color: #FFFFFF;
+	transition: all 0.5s ease-in-out;
+	-webkit-transition: all 0.5s ease-in-out;
+	margin-bottom: 40px;
+
+}
+
+#RecipesInside3 {
+	position: absolute;
+	top: 40%;
+	left: 66%;
+	font-family: 'Crafty Girls', cursive;
+	padding: 0px 10px 0px 10px;
+	font-size: 30px;
+	font-weight: bold;
+	background-color: #ff5050;
+	border: 1px solid;
+	border-radius: 3%;
+	display: block;
+	color: #FFFFFF;
+	transition: all 0.5s ease-in-out;
+	-webkit-transition: all 0.5s ease-in-out;
+	margin-bottom: 40px;
+}
+
+#JoinInside3 {
+	position: absolute;
+	top: 40%;
+	left: 63%;
+	font-family: 'Crafty Girls', cursive;
+	padding: 0px 10px 0px 10px;
+	font-size: 30px;
+	font-weight: bold;
+	background-color: #ff5050;
+	border: 1px solid;
+	border-radius: 3%;
+	display: block;
+	color: #FFFFFF;
+	transition: all 0.5s ease-in-out;
+	-webkit-transition: all 0.5s ease-in-out;
+	margin-bottom: 40px;
+}
+
+.londonEyeContainer {
+	width: 70%;
+	display: inline-block;
+}
+
+.containsButtons {
+	margin-top: 13vh;
+	width: 30%;
+	display: inline-block;
+	vertical-align: top;
+}
+
+.containsSocial {
+
+}
+.navSocialF {
+	padding-bottom: 10px;
+	
+}
+
+.navSocialT {
+	
+}
+
+.navSocialP {
+	
+}
+
+div#About ul li {
+	text-align: left;
+}
+div#Good_Adresses ul li {
+	text-align: right;
+}
+
+body {
+  background-image: url("pie.png");
+ 
+}
+
+@keyframes wheel {
+  100% {
+    transform: rotate(360deg);
+  }
+}
+@keyframes stand {
+  100% {
+    transform: rotate(-360deg);
+  }
+}
+.londoneye {
+  position: relative;
+  margin: 15vh auto;
+  width: 26em;
+  height: 26em;
+  border-radius: 50%;
+  border: 1.73333em solid transparent;
+  box-shadow: 0 0 0 0.43333em #fff inset, 0 0 0 0.43333em #fff;
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0) 49.7%, #cccccc 49.7%, #cccccc 50.3%, rgba(0, 0, 0, 0) 50.3%), linear-gradient(11.25deg, rgba(0, 0, 0, 0) 49.7%, #cccccc 49.7%, #cccccc 50.3%, rgba(0, 0, 0, 0) 50.3%), linear-gradient(22.5deg, rgba(0, 0, 0, 0) 49.7%, #cccccc 49.7%, #cccccc 50.3%, rgba(0, 0, 0, 0) 50.3%), linear-gradient(33.75deg, rgba(0, 0, 0, 0) 49.7%, #cccccc 49.7%, #cccccc 50.3%, rgba(0, 0, 0, 0) 50.3%), linear-gradient(45deg, rgba(0, 0, 0, 0) 49.7%, #cccccc 49.7%, #cccccc 50.3%, rgba(0, 0, 0, 0) 50.3%), linear-gradient(56.25deg, rgba(0, 0, 0, 0) 49.7%, #cccccc 49.7%, #cccccc 50.3%, rgba(0, 0, 0, 0) 50.3%), linear-gradient(67.5deg, rgba(0, 0, 0, 0) 49.7%, #cccccc 49.7%, #cccccc 50.3%, rgba(0, 0, 0, 0) 50.3%), linear-gradient(78.75deg, rgba(0, 0, 0, 0) 49.7%, #cccccc 49.7%, #cccccc 50.3%, rgba(0, 0, 0, 0) 50.3%), linear-gradient(90deg, rgba(0, 0, 0, 0) 49.7%, #cccccc 49.7%, #cccccc 50.3%, rgba(0, 0, 0, 0) 50.3%), linear-gradient(101.25deg, rgba(0, 0, 0, 0) 49.7%, #cccccc 49.7%, #cccccc 50.3%, rgba(0, 0, 0, 0) 50.3%), linear-gradient(112.5deg, rgba(0, 0, 0, 0) 49.7%, #cccccc 49.7%, #cccccc 50.3%, rgba(0, 0, 0, 0) 50.3%), linear-gradient(123.75deg, rgba(0, 0, 0, 0) 49.7%, #cccccc 49.7%, #cccccc 50.3%, rgba(0, 0, 0, 0) 50.3%), linear-gradient(135deg, rgba(0, 0, 0, 0) 49.7%, #cccccc 49.7%, #cccccc 50.3%, rgba(0, 0, 0, 0) 50.3%), linear-gradient(146.25deg, rgba(0, 0, 0, 0) 49.7%, #cccccc 49.7%, #cccccc 50.3%, rgba(0, 0, 0, 0) 50.3%), linear-gradient(157.5deg, rgba(0, 0, 0, 0) 49.7%, #cccccc 49.7%, #cccccc 50.3%, rgba(0, 0, 0, 0) 50.3%), linear-gradient(168.75deg, rgba(0, 0, 0, 0) 49.7%, #cccccc 49.7%, #cccccc 50.3%, rgba(0, 0, 0, 0) 50.3%);
+  animation: wheel 60s linear infinite;
+}
+.londoneye::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+  border-radius: 50%;
+  background: #fff;
+  width: 1.3em;
+  height: 1.3em;
+  box-shadow: 0em 15.6em 0 0 #fff, 3.04341em 15.30025em 0 0 #fff, 5.96986em 14.41252em 0 0 #fff, 8.6669em 12.97093em 0 0 #fff, 11.03087em 11.03087em 0 0 #fff, 12.97093em 8.6669em 0 0 #fff, 14.41252em 5.96986em 0 0 #fff, 15.30025em 3.04341em 0 0 #fff, 15.6em 0em 0 0 #fff, 15.30025em -3.04341em 0 0 #fff, 14.41252em -5.96986em 0 0 #fff, 12.97093em -8.6669em 0 0 #fff, 11.03087em -11.03087em 0 0 #fff, 8.6669em -12.97093em 0 0 #fff, 5.96986em -14.41252em 0 0 #fff, 3.04341em -15.30025em 0 0 #fff, 0em -15.6em 0 0 #fff, -3.04341em -15.30025em 0 0 #fff, -5.96986em -14.41252em 0 0 #fff, -8.6669em -12.97093em 0 0 #fff, -11.03087em -11.03087em 0 0 #fff, -12.97093em -8.6669em 0 0 #fff, -14.41252em -5.96986em 0 0 #fff, -15.30025em -3.04341em 0 0 #fff, -15.6em 0em 0 0 #fff, -15.30025em 3.04341em 0 0 #fff, -14.41252em 5.96986em 0 0 #fff, -12.97093em 8.6669em 0 0 #fff, -11.03087em 11.03087em 0 0 #fff, -8.6669em 12.97093em 0 0 #fff, -5.96986em 14.41252em 0 0 #fff, -3.04341em 15.30025em 0 0 #fff;
+}
+
+.stand {
+  position: absolute;
+  top: 13em;
+  right: 0;
+  left: 0;
+  width: 17.33333em;
+  margin: auto;
+  height: 16.25em;
+  border-bottom: 2.6em solid #fff;
+  transform-origin: 50% 0%;
+  animation: stand 60s infinite linear;
+}
+.stand::before, .stand::after {
+  content: '';
+  position: absolute;
+  top: -0.86667em;
+  width: 1.3em;
+  height: 18.57143em;
+  background: #fff;
+  border-radius: 1.3em;
+}
+.stand::before {
+  left: 5em;
+  transform: rotate(20deg);
+}
+.stand::after {
+  right: 5em;
+  transform: rotate(-20deg);
+}
+
+
