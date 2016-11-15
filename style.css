@@ -6,11 +6,10 @@ body {
 h1 {
 	text-align: center;
 	font-family: 'Homemade Apple', cursive;
-	font-size: 70px;
-	margin: 15px;
+	font-size: 80px;
+	margin: 0px;
 	padding: 0;
 	color: #DC143C;
-	background-image: url();
 
 }
 h2 {
@@ -18,41 +17,36 @@ h2 {
 	font-family: 'Homemade Apple', cursive;
 	font-size: 30px;
 	font-weight: bold;
-	margin: 0;
-	color: #DC143C;;
+	margin: 0 0 40px 0;
+	color: #DC143C;
 }
 
-
+/* insde the About page */
 .textAbout {
 	font-family: 'Mogra', cursive;
 	font-size: 30px;
 	width: 400px;
 	text-align: center;
-	margin: 200px 50px 50px 450px;
+	margin: auto;
+	color: #FFFFFF;
+	position: relative;
+	/*right: 43px;*/
+	top: 90px;
+
 }
+/* inside the Join Us page*/
 
-
+.newsletter {
+	position: relative;
+	left: 500px;
+}
 
 
 .title {
 	background-image: url("pie.jpg");
 }
 
-.title1 {
 
-}
-
-.title2 {
-	background-image: url("food.jpg");
-}
-
-.title3 {
-	background-image: url("picnic.jpg");
-}
-
-.title4 {
-	background-image: url("picnic.jpg");
-}
 
 
 a {
@@ -66,80 +60,79 @@ a {
 	padding-left: 20px;
 }
 
+/*Inside the home page */
+
+div#About ul li {
+	text-align: left;
+}
+div#Good_Adresses ul li {
+	text-align: right;
+}
+
+body {
+  background-image: url("pie.png");
+ 
+}
+
+
+
 
 #Home {
 	display: block;
-	font-family: 'Rancho', cursive;
-	font-size: 60px;
-	font-weight: bold;
-	background-color: #ff5050;
-	border: 1px solid;
+	font-family: 'Homemade Apple', cursive;
+	font-size: 50px;
+	background-color: #DC143C;
 	border-radius: 1000%;
-	color: #FFFFFF;
-	transition: all 0.5s ease-in-out;
-	-webkit-transition: all 0.5s ease-in-out;
 	margin-bottom: 40px;
+	color: #FFFFFF;
 }
 
 #About {
 	margin: auto;
-	font-family: 'Rancho', cursive;
+	font-family: 'Homemade Apple', cursive;
 	padding: 0px 10px 0px 10px;
-	font-size: 40px;
-	font-weight: bold;
-	background-color: #ff5050;
-	border: 1px solid;
+	font-size: 30px;
+	background-color: #DC143C;
 	border-radius: 100%;
 	display: block;
 	color: #FFFFFF;
-	transition: all 0.5s ease-in-out;
-	-webkit-transition: all 0.5s ease-in-out;
 	margin-bottom: 40px;
 }
 
 #Good {
-	font-family: 'Rancho', cursive;
+	font-family: 'Homemade Apple', cursive;
 	padding: 0px 10px 0px 10px;
-	font-size: 50px;
+	font-size: 30px;
 	font-weight: bold;
-	background-color: #ff5050;
-	border: 1px solid;
+	background-color: #DC143C;
 	border-radius: 100%;
 	display: block;
-	color: #FFFFFF;
-	transition: all 0.5s ease-in-out;
-	-webkit-transition: all 0.5s ease-in-out;
+	color: red;
 	margin-bottom: 40px;
 }
 
 #Recipes {
 	margin: auto;
-	font-family: 'Rancho', cursive;
+	font-family: 'Homemade Apple', cursive;
 	padding: 0px 10px 0px 10px;
-	font-size: 40px;
+	font-size: 20px;
 	font-weight: bold;
-	background-color: #ff5050;
-	border: 1px solid;
+	background-color: #DC143C;
 	border-radius: 100%;
 	display: block;
 	color: #FFFFFF;
-	transition: all 0.5s ease-in-out;
-	-webkit-transition: all 0.5s ease-in-out;
 	margin-bottom: 40px;
 }
 
 #Join {
-	font-family: 'Rancho', cursive;
+	font-family: 'Homemade Apple', cursive;
 	padding: 0px 10px 0px 10px;
-	font-size: 45px;
+	font-size: 30px;
 	font-weight: bold;
-	background-color: #ff5050;
-	border: 1px solid;
+	background-color: #DC143C;
 	border-radius: 100%;
 	display: block;
 	color: #FFFFFF;
-	transition: all 0.5s ease-in-out;
-	-webkit-transition: all 0.5s ease-in-out;
 	margin-bottom: 40px;
 }
 
@@ -154,8 +147,7 @@ a {
 	width: 0;
 	height: 100%;
 	overflow-y: hidden;
-	background-color: #2C3E50;
-	border: 2px solid red;
+	background-color: #DC143C;
 	opacity: 0.9;
 }
 
@@ -163,17 +155,20 @@ a {
 #main-content-wrapper {
 	width: 100%;
 	position: absolute;
-	padding: 15px;
-	border: 5px solid green;
 }
 
+.navbar-text {
+	position: fixed;
+	left: 90%;
+	bottom: 5%;
+}
 /* Change the width of the sidebar to dispaly it */
 #wrapper.menuDisplayed #sidebar-wrapper {
 	width: 250px;
 }
 
 #wrapper.menuDisplayed #main-content-wrapper {
-	width: 250px;
+	/* width: 250px; */
 } 
 
 /*Sidebar styling */
@@ -193,273 +188,113 @@ a {
 	color: #ddd;
 }
 
-.sidebar-nav li a:hover {
-	background: #16A085;
+#mainTitleABout {
+	font-family: 'Homemade Apple', cursive;
+	font-size: 40px;
+	padding: 30px;
 }
 
-#navInside {
-	text-align: left;
-	padding: 10px;
-	font-family: 'Rancho', cursive;
-	padding: 0px 10px 0px 10px;
-	list-style-type: inline;
+
+/* style of the menu buttons */
+#styleAboutHome {
+	font-family: 'Homemade Apple', cursive;
+	font-size: 40px;
+	padding: 30px;
 }
 
-#HomeInside {
+#styleAboutAbout {
+	font-family: 'Homemade Apple', cursive;
+	font-size: 40px;
+	padding: 30px;
+}
+
+#styleAboutGood {
+	font-family: 'Homemade Apple', cursive;
+	font-size: 40px;
+	padding: 30px;
+}
+
+#styleAboutRecipes {
+	font-family: 'Homemade Apple', cursive;
+	font-size: 40px;
+	padding: 20px;
+}
+
+#styleAboutJoin {
+	font-family: 'Homemade Apple', cursive;
+	font-size: 40px;
+	padding: 30px;
+}
+
+#menu-toggle {
+	font-family: 'Homemade Apple', cursive;
+	font-size: 20px;
+	padding: 10px 15px 10px 15px;
+	background-color: #DC143C;
+	border-color: #DC143C;
+	border-radius: 200%;
 	position: absolute;
-	left: 25%;
-	top: 40%;
-	font-family: 'Crafty Girls', cursive;
-	padding: 0px 10px 0px 10px;
-	font-size: 30px;
-	font-weight: bold;
-	background-color: #ff5050;
-	border: 1px solid;
-	border-radius: 30%;
-	display: block;
-	color: #FFFFFF;
-	transition: all 0.5s ease-in-out;
-	-webkit-transition: all 0.5s ease-in-out;
-	margin-bottom: 40px;
+    top: 25px;
+    right: 25px;
+    color: #FFFFFF;
+
 }
 
-#AboutInside {
-	position: absolute;
-	left: 40%;
-	top: 40%;
-	font-family: 'Crafty Girls', cursive;
-	padding: 0px 10px 0px 10px;
-	font-size: 30px;
+/* inside the join us page */
+
+.suscribeText {
+	padding: 50px;
+	font-family: 'Mogra', cursive;
+	margin: auto;
+	font-size: 40px;
 	font-weight: bold;
-	background-color: #ff5050;
-	border: 1px solid;
-	border-radius: 3%;
-	display: block;
-	color: #FFFFFF;
-	transition: all 0.5s ease-in-out;
-	-webkit-transition: all 0.5s ease-in-out;
-	margin-bottom: 40px;
-}
+	color: #DC143C;
+	width: 400px;
+	text-align: center;
+	position: relative;
+	top: 300px;
 
-#RecipesInside {
-	position: absolute;
-	top: 40%;
-	left: 55%;
-	font-family: 'Crafty Girls', cursive;
-	padding: 0px 10px 0px 10px;
-	font-size: 30px;
-	font-weight: bold;
-	background-color: #ff5050;
-	border: 1px solid;
-	border-radius: 3%;
-	display: block;
-	color: #FFFFFF;
-	transition: all 0.5s ease-in-out;
-	-webkit-transition: all 0.5s ease-in-out;
-	margin-bottom: 40px;
-}
-
-#JoinInside {
-	position: absolute;
-	top: 40%;
-	left: 70%;
-	font-family: 'Crafty Girls', cursive;
-	padding: 0px 10px 0px 10px;
-	font-size: 30px;
-	font-weight: bold;
-	background-color: #ff5050;
-	border: 1px solid;
-	border-radius: 3%;
-	display: block;
-	color: #FFFFFF;
-	transition: all 0.5s ease-in-out;
-	-webkit-transition: all 0.5s ease-in-out;
-	margin-bottom: 40px;
-}
-
-
-
-#HomeInside2 {
-	position: absolute;
-	left: 25%;
-	top: 40%;
-	font-family: 'Crafty Girls', cursive;
-	padding: 0px 10px 0px 10px;
-	font-size: 30px;
-	font-weight: bold;
-	background-color: #ff5050;
-	border: 1px solid;
-	border-radius: 3%;
-	display: block;
-	color: #FFFFFF;
-	transition: all 0.5s ease-in-out;
-	-webkit-transition: all 0.5s ease-in-out;
-	margin-bottom: 40px;
-}
-
-#AboutInside2 {
-	position: absolute;
-	left: 40%;
-	top: 40%;
-	font-family: 'Crafty Girls', cursive;
-	padding: 0px 10px 0px 10px;
-	font-size: 30px;
-	font-weight: bold;
-	background-color: #ff5050;
-	border: 1px solid;
-	border-radius: 3%;
-	display: block;
-	color: #FFFFFF;
-	transition: all 0.5s ease-in-out;
-	-webkit-transition: all 0.5s ease-in-out;
-	margin-bottom: 40px;
-}
-
-#GoodInside2 {
-	position: absolute;
-	left: 40%;
-	top: 40%;
-	font-family: 'Crafty Girls', cursive;
-	padding: 0px 10px 0px 10px;
-	font-size: 30px;
-	font-weight: bold;
-	background-color: #ff5050;
-	border: 1px solid;
-	border-radius: 3%;
-	display: block;
-	color: #FFFFFF;
-	transition: all 0.5s ease-in-out;
-	-webkit-transition: all 0.5s ease-in-out;
-	margin-bottom: 40px;
 	
 }
 
-#RecipesInside2 {
-	position: absolute;
-	top: 40%;
-	left: 55%;
-	font-family: 'Crafty Girls', cursive;
-	padding: 0px 10px 0px 10px;
+.newsletter {
+	position: fixed;
+	top: 300px;
+	left: 600px;
+	background-color: #DC143C;
 	font-size: 30px;
-	font-weight: bold;
-	background-color: #ff5050;
-	border: 1px solid;
-	border-radius: 3%;
-	display: block;
-	color: #FFFFFF;
-	transition: all 0.5s ease-in-out;
-	-webkit-transition: all 0.5s ease-in-out;
-	margin-bottom: 40px;
 }
 
-#JoinInside2 {
-	position: absolute;
-	top: 40%;
-	left: 70%;
-	font-family: 'Crafty Girls', cursive;
-	padding: 0px 10px 0px 10px;
-	font-size: 30px;
+
+
+#TitleAbout {
+	text-align: center;
+	font-family: 'Homemade Apple', cursive;
+	font-size: 70px;
 	font-weight: bold;
-	background-color: #ff5050;
-	border: 1px solid;
-	border-radius: 3%;
-	display: block;
-	color: #FFFFFF;
-	transition: all 0.5s ease-in-out;
-	-webkit-transition: all 0.5s ease-in-out;
-	margin-bottom: 40px;
+	margin: 0px;
+	padding: 0;
+	color: #DC143C;
+	left: 500px;
 }
 
-#HomeInside3 {
-	position: absolute;
-	left: 20%;
-	top: 40%;
-	font-family: 'Crafty Girls', cursive;
-	padding: 0px 10px 0px 10px;
-	font-size: 30px;
-	font-weight: bold;
-	background-color: #ff5050;
-	border: 1px solid;
-	border-radius: 3%;
-	display: block;
-	color: #FFFFFF;
-	transition: all 0.5s ease-in-out;
-	-webkit-transition: all 0.5s ease-in-out;
-	margin-bottom: 40px;
-}
+/*title in the recipe page */
 
-#AboutInside3 {
-	position: absolute;
-	left: 55%;
-	top: 40%;
-	font-family: 'Crafty Girls', cursive;
-	padding: 0px 10px 0px 10px;
-	font-size: 30px;
+.title2 {
+	font-size: 70px;
 	font-weight: bold;
-	background-color: #ff5050;
-	border: 1px solid;
-	border-radius: 3%;
-	display: block;
-	color: #FFFFFF;
-	transition: all 0.5s ease-in-out;
-	-webkit-transition: all 0.5s ease-in-out;
-	margin-bottom: 40px;
-}
-
-#GoodInside3 {
-	position: absolute;
-	left: 30%;
-	top: 40%;
-	font-family: 'Crafty Girls', cursive;
-	padding: 0px 10px 0px 10px;
-	font-size: 30px;
+	position: relative;
+	text-align: center;
+	font-family: 'Homemade Apple', cursive;
+	color: #DC143C;
+	}
+/*
+.title-text {
+	font-family: 'Homemade Apple', cursive;
 	font-weight: bold;
-	background-color: #ff5050;
-	border: 1px solid;
-	border-radius: 3%;
-	display: block;
-	color: #FFFFFF;
-	transition: all 0.5s ease-in-out;
-	-webkit-transition: all 0.5s ease-in-out;
-	margin-bottom: 40px;
-
+	color: #DC143C;
 }
-
-#RecipesInside3 {
-	position: absolute;
-	top: 40%;
-	left: 66%;
-	font-family: 'Crafty Girls', cursive;
-	padding: 0px 10px 0px 10px;
-	font-size: 30px;
-	font-weight: bold;
-	background-color: #ff5050;
-	border: 1px solid;
-	border-radius: 3%;
-	display: block;
-	color: #FFFFFF;
-	transition: all 0.5s ease-in-out;
-	-webkit-transition: all 0.5s ease-in-out;
-	margin-bottom: 40px;
-}
-
-#JoinInside3 {
-	position: absolute;
-	top: 40%;
-	left: 63%;
-	font-family: 'Crafty Girls', cursive;
-	padding: 0px 10px 0px 10px;
-	font-size: 30px;
-	font-weight: bold;
-	background-color: #ff5050;
-	border: 1px solid;
-	border-radius: 3%;
-	display: block;
-	color: #FFFFFF;
-	transition: all 0.5s ease-in-out;
-	-webkit-transition: all 0.5s ease-in-out;
-	margin-bottom: 40px;
-}
+*/
 
 .londonEyeContainer {
 	width: 70%;
@@ -473,33 +308,10 @@ a {
 	vertical-align: top;
 }
 
-.containsSocial {
 
-}
-.navSocialF {
-	padding-bottom: 10px;
-	
-}
 
-.navSocialT {
-	
-}
 
-.navSocialP {
-	
-}
-
-div#About ul li {
-	text-align: left;
-}
-div#Good_Adresses ul li {
-	text-align: right;
-}
-
-body {
-  background-image: url("pie.png");
- 
-}
+/*London eye */
 
 @keyframes wheel {
   100% {

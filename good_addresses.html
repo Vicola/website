@@ -6,22 +6,52 @@
 <link href="https://fonts.googleapis.com/css?family=Homemade+Apple" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Crafty+Girls" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Mogra" rel="stylesheet">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 	<title>Edible London</title>
 </head>
 <body>
+<style type="text/css">
+	body {
+		background-image: url("lemon.jpeg");
+	}
+</style>
+
+<div id="wrapper">
+					
+	<!-- Sidebar -->
+	<div id="sidebar-wrapper">
+
+				<ul class="sidebar-nav">
+				<div id="styleAboutHome">
+					<li><a href="index.html">Home</a></li>
+				</div>
+				<div id="styleAboutAbout">
+					<li><a href="about.html">About</a></li>
+				</div>
+				<div id="styleAboutGood">
+					<li><a href="good_addresses.html">Good Adresses</a></li>
+				</div>
+				<div id="styleAboutRecipes">
+					<li><a href="recipes.html">Recipes</a></li>
+				</div>
+				<div id="styleAboutJoin">
+					<li><a href="join_us.html">Join Us</a></li>
+				</div>
+				</ul>
+	</div>
+	<!-- Main Content -->
+<div id="main-content-wrapper" class="container">
+
 	<header>
-	<div class="title1">
-		<h1>Edible London</h1>
-		<h2>Good Adresses</h2>
+	<div class="title2">
+		<h1 class="title-text">Edible London</h1>
+		<h2 class="title-text">Good Adresses</h2>
 	</div>	
-		<div class="button">
-			<button id="HomeInside"><a href="index.html">Home</a></button>
-			<button id="AboutInside"><a href="about.html">About</a></button>
-			<button id="RecipesInside"><a href="recipes.html">Recipes</a></button>
-			<button id="JoinInside"><a href="join_us.html">Join Us!</a></button>
-		</div>
+	<a href="#" class="btn btn-success" id="menu-toggle">Menu</a>
 
 	</header>
+					
+
 
 	<div class="row inline">
 		<div class="col-md-6">
@@ -52,12 +82,30 @@
 		<div class="col-md-6"><img src="greensmiths.jpg" alt="Greensmiths"></div>
 	</div>
 
-    <div class="navbar-text pull-right">
-  		<a href="#"><i class="fa fa-facebook-square fa-2x" aria-hidden="true"></i></a>
-  		<a href="#"><i class="fa fa-twitter-square fa-2x" aria-hidden="true"></i></a>
-  		<a href="#"><i class="fa fa-pinterest-p fa-2x" aria-hidden="true"></i></a>
+
+
+
+
+					<div class="navbar-text">
+  							<a href="#"><i class="fa fa-facebook-square fa-2x" aria-hidden="true"></i></a>
+  							<a href="#"><i class="fa fa-twitter-square fa-2x" aria-hidden="true"></i></a>
+  							<a href="#"><i class="fa fa-pinterest-p fa-2x" aria-hidden="true"></i></a>
+						</div>
+		</div>
+			</div>
+						
 	</div>
+</div>
+
+    <script src="jquery-3.1.1.js"></script>
+<script type="text/javascript">
+	$ ("#menu-toggle") .click(function (e) {
+		e.preventDefault() ;
+		$ ("#wrapper") .toggleClass("menuDisplayed") ;
+	});
+</script>
+
 </body>
-<script type="text/javascript"></script>
+
 
 </html>
